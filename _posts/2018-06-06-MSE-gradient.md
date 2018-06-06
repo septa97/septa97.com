@@ -21,7 +21,7 @@ $$
 \nabla MSE(w_0, w_1, ..., w_{m-1}) = \frac{\partial_{MSE}}{\partial w_0}, \frac{\partial_{MSE}}{\partial w_1}, ..., \frac{\partial_{MSE}}{\partial w_{m-1}}
 $$
 
-Let's take the first partial derivate as an example.
+Let's take the first partial derivative as an example.
 
 $$
 u = (y_{actual} - (w_0x_0 + w_1x_1 + ... + w_{m-1}x_{m-1}))
