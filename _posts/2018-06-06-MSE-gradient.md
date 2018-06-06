@@ -56,7 +56,7 @@ $$
 $$
 
 $$
-\frac{\partial_{MSE}}{\partial w_0} = \frac{1}{n} \sum_{i=0}^{n-1}{u} * x_0
+\frac{\partial_{MSE}}{\partial w_0} = \frac{1}{n} \sum_{i=0}^{n-1}{(u)} * x_0
 $$
 
 Substitute $$u$$.
