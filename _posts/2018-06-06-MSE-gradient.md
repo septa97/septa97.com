@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Step-by-step gradient computation of the MSE"
+title:  "Step-by-step gradient computation of the Mean Squared Error (MSE)"
 tags:
   - calculus
 ---
