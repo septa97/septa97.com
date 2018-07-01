@@ -136,10 +136,10 @@ After initializing the Q-value matrix, we will have an **initial state** that we
 We can now update the **Q(state, optimal_action)** value using the equation that we've used before. Set next state **s'** as the current state and loop until convergence.
 
 # Learning rate and discount factor (alpha and lambda, respectively)
-I've decided not to discuss these constants but for you to have an idea, this constants are hyperparameters of the algorithm (*that means, you must tweak the algorithm using these parameters*). The possible values for this are between 0 to 1, inclusive. I've set the discount factor to 1 because from what I've read before, it is recommended to use a high discount factor if the environment is deterministic (i.e. no randomized results).
+I've decided not to discuss these constants but for you to have an idea, this constants are hyperparameters of the algorithm (*that means, you must tweak the algorithm using these parameters*). The possible values for this are between 0 to 1, inclusive. I've set the discount factor to 1 because from what I've read before, it is recommended to use a high discount factor if the environment is deterministic (i.e. no randomized results). I've set the learning rate to 0.1 since this is the recommended configuration so that the algorithm won't overshoot.
 
 # Conclusion
-If you're interested on the origin of the update equation, you can look up on the Bellman equation. My implementation is still a naive solution, resulting to a maximum score of only 90 after a few thousand episodes (iterations). You can improve the agent by adding more state representation like **y-velocity** of the bird. Later, I'll upload a video of the agent learning from scratch. For now, you can clone the source code and run the agent on your local machine.
+If you're interested on the origin of the update equation, you can look up on the Bellman equation. My implementation is still a naive solution, resulting to a maximum score of only 164 after a few thousand episodes (iterations). You can improve the agent by adding more state representation like **y-velocity** of the bird. Later, I'll upload a video of the agent learning from scratch. For now, you can clone the source code and run the agent on your local machine.
 
 # Source Code
 For the source code, you can view it on this [GitHub project link](https://github.com/septa97/flappy-bird-q-learning).
