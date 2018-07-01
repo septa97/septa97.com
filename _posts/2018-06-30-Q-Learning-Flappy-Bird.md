@@ -79,6 +79,13 @@ This is just a weighted update of the state-action value. See this equation $$(1
 
 After updating the Q-value matrix, the new state **s'** will now be the current state and the loop will start again until convergence. So that's basically the Q-Learning algorithm.
 
+<br clear="all"/>
+<figure>
+  <img src="/assets/images/06-30-18/graph-game-final-matrix.png">
+	<figcaption>Figure 5. Final matrix after 1000 episodes. The agent learns that going from 0 to 4, then from 4 to 5 is the most optimal choice.</figcaption>
+</figure>
+<br clear="all"/>
+
 ~~~
 Initialize the Q-value matrix
 
@@ -116,7 +123,7 @@ For the **y-axis distance** between the bird and the next top pipe, the possible
 <br clear="all"/>
 <figure>
   <img src="http://sarvagyavaish.github.io/FlappyBirdRL/images/StateSpace.png">
-	<figcaption>Figure 5. Visualization of the x-axis distance and the y-axis distance of the bird.</figcaption>
+	<figcaption>Figure 6. Visualization of the x-axis distance and the y-axis distance of the bird.</figcaption>
 </figure>
 <br clear="all"/>
 
