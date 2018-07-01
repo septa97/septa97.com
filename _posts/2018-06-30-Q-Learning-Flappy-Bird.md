@@ -150,3 +150,17 @@ If you're interested on the origin of the update equation, you can look up on th
 
 # Source Code
 For the source code, you can view it on this [GitHub project link](https://github.com/septa97/flappy-bird-q-learning).
+
+# References
+
+## Figures
+Figure 1: [https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287)
+Figure 2 and 3: [https://www.youtube.com/watch?v=A5eihauRQvo](https://www.youtube.com/watch?v=A5eihauRQvo)
+Figure 4: [https://en.wikipedia.org/wiki/Q-learning](https://en.wikipedia.org/wiki/Q-learning)
+Figure 6: [http://sarvagyavaish.github.io/FlappyBirdRL/](http://sarvagyavaish.github.io/FlappyBirdRL/)
+
+## Projects
+This project is highly inspired by these projects:
+
+[https://github.com/chncyhn/flappybird-qlearning-bot](https://github.com/chncyhn/flappybird-qlearning-bot)
+[https://github.com/SarvagyaVaish/FlappyBirdRL](Equation of Q-value updat://github.com/SarvagyaVaish/FlappyBirdRL)
