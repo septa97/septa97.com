@@ -110,7 +110,7 @@ while the Q-values have not converged:
 * **Agent** - the bird will be the agent.
 * **State** - for this game, I'll be using 3 variables as the representation of the state. These would be the **x-axis distance** of the bird to the next pipes, and the **y-axis distances** of the bird to the top and bottom pipe.
 * **Action** - there will only be 2 kinds of action for this scenario: **to jump or not**.
-* **Reward** - for each state that the bird is still alive, the reward would be **1** and if the bird dies on that state, the reward would be **-1000**.
+* **Reward** - for each state that the bird is still alive, the reward would be **1** and if the bird dies on that state, the reward would be **-100**.
 * **Terminal State** - the **only** terminal state would be the state where the bird dies.
 
 ### Initialize the Q-value matrix
