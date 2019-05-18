@@ -67,7 +67,7 @@ And for those functional programmers out there, I think you've noticed that Java
 
 ## Conclusion
 
-Use **Optional** if you think your data might be have **null** values.
+Use **java.util.Optional** if you think your data might be have **null** values. (Applicable only on Java 8 onwards.)
 
 For more details on the **Optional** wrapper, you can check the [Java 8 API documentation](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html).
 
