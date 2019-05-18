@@ -40,7 +40,7 @@ Optional<Integer> dValueOpt = Optional.ofNullable(map.get("d"));
 if (dValueOpt.isPresent()) {
   Integer dValue = dValueOpt.get();
   // do something if it has a value
-} {
+} else {
   // do something if it doesn't have a value
 }
 ```
