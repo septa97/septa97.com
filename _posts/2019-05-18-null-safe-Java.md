@@ -61,9 +61,9 @@ if (dvalue == null) {
 }
 ```
 
-Of course, **Optional** has other methods too aside from **isPresent()** and one of the most important method is **flatMap(functionMapper)** which chains operations on an **Optional** value. Personally, I think it's better to not use **null** in your code as much as possible. I don't know if it is just me but whenever I see **null** in my Java code, it makes me want to gouge my eye out.
+Of course, **Optional** has other methods too aside from **isPresent()** and one of the most important method is **flatMap(functionMapper)** which chains operations on an **Optional** value. Personally, I also think it's better to not use **null** in your code as much as possible. I don't know if it is just me but whenever I see **null** in my Java code, it makes me want to gouge my eye out.
 
-And for those functional programmers out there, I think you've noticed that Java is slowly adapting functional programming concepts. I want to discuss more of these operations but I don't have much time so that would be for another blog post and it's going to be a bit *FUN*ctional. ;)
+And for those functional programmers out there, I think you've noticed that Java is slowly adapting functional programming concepts. I want to discuss more of these concepts but I don't have much time so that would be for another blog post and it's going to be a bit *FUN*ctional. ;)
 
 ## Conclusion
 
