@@ -1,5 +1,7 @@
-# septa97.me
+# septa97.com
 > Repository of my personal website
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b994b74c-50e7-4c03-bafd-261b27385b2f/deploy-status)](https://app.netlify.com/sites/septa97/deploys)
 
 ## Developing
 
